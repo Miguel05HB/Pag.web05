@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: mifuente;
+    src: url('../CSS/Fonts/cs_regular.ttf');
+}
+h1{
+    color: blue;
+    font-family: "mifuente";
+    font-size: 70px;
+    margin-top: 50px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-align: center;
+}
+#menu{
+    width: 1500px;
+    margin: auto;
+    top: 5em;
+    left: 20em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;
+}
+.nav li a{
+    background-color: #E5E5E5;
+    color: black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: skyblue;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+#contenedor{
+    background-color: #E5E5E5;
+    margin: auto;
+    width: 1800px;
+    padding: 1em;
+    overflow: hidden;
+}
+.imagen{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: -320px;
+    margin-top: 50px;
+}
+.letra{
+    width: 320px;
+    margin-left: 70px;
+    margin-top: 285px;
+    float: left;
+}
+.boton{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen2{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -208px;
+    border: 2px solid black;
+    float: left;
+}
+.letra2{
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 28px;
+    float: left;
+}
+.boton2{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen3{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -208px;
+    border: 2px solid black;
+    float: left;
+}
+.letra3{
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 28px;
+    float: left;
+}
+.boton3{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen4{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -208px;
+    border: 2px solid black;
+    float: left;
+}
+.letra4{
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 28px;
+    float: left;
+}
+.boton4{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen5{
+    width: 260px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 70px;
+    border: 2px solid black;
+}
+.letra5{
+    width: 320px;
+    margin-left: 70px;
+    float: left;
+}
+.boton5{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen6{
+    width: 260px;
+    height: 200px;
+    margin-top: -244px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
+.letra6{
+    width: 320px;
+    margin-left: 100px;
+    float: left;
+}
+.boton6{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen7{
+    width: 260px;
+    height: 200px;
+    margin-top: -244px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
+.letra7{
+    width: 320px;
+    margin-left: 100px;
+    float: left;
+}
+.boton7{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen8{
+    width: 260px;
+    height: 200px;
+    margin-top: -244px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
+.letra8{
+    width: 320px;
+    margin-left: 1330px;
+}
+.boton8{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen9{
+    width: 260px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: -320px;
+    float: left;
+    border: 2px solid black;
+}
+.letra9{
+    width: 320px;
+    margin-top: 345px;
+    margin-left: -320px;
+    float: left;
+}
+.boton9{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen10{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
+    float: left;
+}
+.letra10{
+    width: 320px;
+    margin-top: 345px;
+    margin-left: -264px;
+    float: left;
+}
+.boton10{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen11{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
+    float: left;
+}
+.letra11{
+    width: 320px;
+    margin-top: 345px;
+    margin-left: -264px;
+    float: left;
+}
+.boton11{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen12{
+    width: 260px;
+    height: 200px;
+    margin-top: -245px;
+    margin-left: 100px;
+    border: 2px solid black;
+    float: left;
+}
+.letra12{
+    width: 320px;
+    margin-top: 345px;
+    margin-left: 1330px;
+}
+.boton12{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen13{
+    width: 260px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 70px;
+    border: 2px solid black;
+    float: left;
+}
+.letra13{
+    width: 320px;
+    margin-left: -264px;
+    margin-top: 290px;
+    float: left;
+}
+.boton13{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen14{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    float: left;
+}
+.letra14{
+    width: 320px;
+    margin-top: 290px;
+    margin-left: -264px;
+    float: left;
+}
+.boton14{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen15{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    float: left;
+}
+.letra15{
+    width: 320px;
+    margin-top: 290px;
+    margin-left: -264px;
+    float: left;
+}
+.boton15{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.imagen16{
+    width: 260px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    float: left;
+}
+.letra16{
+    width: 320px;
+    margin-left: 1330px;
+    margin-top: 290px;
+}
+.boton16{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+#logo{
+    width: 250px;
+    height: 180px;
+    margin-top: -40px;
+    float: left;
+}
+@font-face {
+    font-family: subtitulo;
+    src: url('../CSS/Fonts/Minecraft\ Evenings.ttf');
+}
+#sub{
+    margin-top: -280px;
+    margin-left: -330px;
+    font-family: subtitulo;
+    color:  brown;
+    font-size: 40px;
+    float: left;
+}
+#buscador{
+    margin-left: -420px;
+    margin-top: -95px;
+    float: left;
+}
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	background: rgb(236,242,248);
+}
+input {
+	font:inherit;
+}
+section{
+	min-height: 30vh;
+	display: flex;
+	align-items: center;
+    margin-top: -320px;
+}
+form {
+	margin: auto;
+}
+form > div {
+	display: flex;
+	background:#fff;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:3px solid #6093c7;
+}
+form input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	padding-left: 24px;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+form input:focus {
+	outline: none;
+	width: 180px;
+}
